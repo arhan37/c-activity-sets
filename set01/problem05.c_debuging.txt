@@ -1,24 +1,4 @@
-PS C:\Users\Hp\Desktop\c-activity-sets> gdb .\problem05.exe                                                                                         
-GNU gdb (GDB) 11.1                                                                                                                                  
-Copyright (C) 2021 Free Software Foundation, Inc.
-License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
-This is free software: you are free to change and redistribute it.
-There is NO WARRANTY, to the extent permitted by law.
-Type "show copying" and "show warranty" for details.
-This GDB was configured as "x86_64-w64-mingw32".
-Type "show configuration" for configuration details.
-For bug reporting instructions, please see:
-<https://www.gnu.org/software/gdb/bugs/>.
-Find the GDB manual and other documentation resources online at:
-    <http://www.gnu.org/software/gdb/documentation/>.
---Type <RET> for more, q to quit, c to continue without paging--c
-
-For help, type "help".
-Type "apropos word" to search for commands related to "word"...
-.\problem05.exe: No such file or directory.
-(gdb) q
-PS C:\Users\Hp\Desktop\c-activity-sets> cd set01
-PS C:\Users\Hp\Desktop\c-activity-sets\set01> gdb .\problem05.exe
+gdb .\problem05.exe
 GNU gdb (GDB) 11.1
 Copyright (C) 2021 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
@@ -37,12 +17,12 @@ For help, type "help".
 Type "apropos word" to search for commands related to "word"...
 Reading symbols from .\problem05.exe...
 (gdb) r
-Starting program: C:\Users\Hp\Desktop\c-activity-sets\set01\problem05.exe
-[New Thread 18248.0x6338]
+Starting program: C:\Users\Hp\Desktop\c-activity-sets\set01\problem05.exe 
+[New Thread 10656.0x988]
 warning: Can not parse XML library list; XML support was disabled at compile time
-Enter a number: 56
-Enter a number: 45
-Enter a number: 76
-The largest of 56,45 and 76 is 76.[Thread 18248.0x2a00 exited with code 0]
-[Inferior 1 (process 18248) exited normally]
-(gdb)
+Enter a number: 4
+Enter a number: 5
+Enter a number: 6
+The largest of 4,5 and 6 is 6.[Thread 10656.0x988 exited with code 0]
+[Inferior 1 (process 10656) exited normally]
+(gdb) q
