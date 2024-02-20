@@ -1,0 +1,28 @@
+gdb .\problem05.exe                                                                                                 
+GNU gdb (GDB) 11.1                                                                                                                                                
+Copyright (C) 2021 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-w64-mingw32".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+--Type <RET> for more, q to quit, c to continue without paging--c
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from .\problem05.exe...
+(gdb) r
+Starting program: C:\Users\Hp\Desktop\c-activity-sets\set02\problem05.exe
+[New Thread 5492.0x3510]
+warning: Can not parse XML library list; XML support was disabled at compile time
+Please enter an integer: 12
+Please enter an integer: 16
+The GCD of 12 and 16 is 4
+[Thread 5492.0x3510 exited with code 0]
+[Inferior 1 (process 5492) exited normally]
+(gdb) q
