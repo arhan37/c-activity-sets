@@ -14,7 +14,7 @@ int main(){
     find_area(&t);
     output(t);
 }
-Triangle input_triangle(){2
+Triangle input_triangle(){
 	Triangle t;
     printf("Enter base: ");
     scanf("%f",&t.base);
