@@ -1,4 +1,4 @@
-gdb .\problem07.exe                                                                                                 
+ gdb .\problem07.exe                                                                                                 
 GNU gdb (GDB) 11.1                                                                                                                                                
 Copyright (C) 2021 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
@@ -17,11 +17,11 @@ For help, type "help".
 Type "apropos word" to search for commands related to "word"...
 Reading symbols from .\problem07.exe...
 (gdb) r
-Starting program: C:\Users\Hp\Desktop\c-activity-sets\set02\problem07.exe
-[New Thread 8676.0x272c]
+Starting program: C:\Users\Hp\Desktop\c-activity-sets\set02\problem07.exe 
+[New Thread 13092.0x2354]
 warning: Can not parse XML library list; XML support was disabled at compile time
 Enter base: 2
 Enter altitude: 3
-The area of the traingle with base 2.000000 and height 3.000000 is 3.000000[Thread 8676.0x272c exited with code 0]
-[Inferior 1 (process 8676) exited normally]
+The area of the traingle with base 2.000000 and height 3.000000 is 3.000000[Thread 13092.0x2354 exited with code 0]
+[Inferior 1 (process 13092) exited normally]
 (gdb) q
