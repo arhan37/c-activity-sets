@@ -25,11 +25,11 @@ void input_triangle(float *x1, float *y1, float *x2, float *y2, float *x3, float
 }
 
 int is_triangle(float x1, float y1, float x2, float y2, float x3, float y3) {
-    // Three points form a triangle if the slope of any two sides is not equal
+    
     if ((y2 - y1) * (x3 - x2) != (y3 - y2) * (x2 - x1)) {
-        return 1; // It is a triangle
+        return 1;
     } else {
-        return 0; // It is not a triangle
+        return 0; 
     }
 }
 

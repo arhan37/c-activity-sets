@@ -1,0 +1,35 @@
+gdb .\problem02.exe                                                                                                 
+GNU gdb (GDB) 11.1                                                                                                                                                
+Copyright (C) 2021 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-w64-mingw32".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+--Type <RET> for more, q to quit, c to continue without paging--c
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from .\problem02.exe...
+(gdb) r
+Starting program: C:\Users\Hp\Desktop\c-activity-sets\set03\problem02.exe 
+[New Thread 21128.0x2610]
+warning: Can not parse XML library list; XML support was disabled at compile time
+Enter the coordinates of the first point (x1, y1): 1 1
+Enter the coordinates of the second point (x2, y2): 0 0
+Enter the coordinates of the third point (x3, y3): 2 2
+The points (1.00, 1.00), (0.00, 0.00), and (2.00, 2.00) do not form a triangle.
+[Thread 21128.0x2610 exited with code 0]
+[Inferior 1 (process 21128) exited normally]
+(gdb) 1 1
+Undefined command: "1".  Try "help".
+(gdb) 0 0
+Undefined command: "0".  Try "help".
+(gdb) 2 2 
+Undefined command: "2".  Try "help".
+(gdb) q
