@@ -72,7 +72,7 @@ void output(int n, int result);
 
 04.  1
 
-***Function Declarations***
+***Funcion Declarations***
 ```c
 int input_array_size();
 void input_array(int n, int a[n]);

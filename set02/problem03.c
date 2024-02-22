@@ -20,16 +20,15 @@ int input_number() {
 int is_composite(int n) {
     int result = 0;
     if (n <= 1) {
-        result = 0;
+        return 0;
     } else {
         for (int i = 2; i < n; i++) {
             if (n % i == 0) {
-                result = 1;
-                break;
+                return 1;
+                
             }
         }
     }
-    return result;
 }
 
 void output(int n, int result) {
