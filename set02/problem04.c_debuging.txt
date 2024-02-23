@@ -1,4 +1,4 @@
-gdb .\problem04.exe                                                                                                 
+ gdb .\problem04.exe                                                                                                 
 GNU gdb (GDB) 11.1                                                                                                                                                
 Copyright (C) 2021 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
@@ -18,15 +18,13 @@ Type "apropos word" to search for commands related to "word"...
 Reading symbols from .\problem04.exe...
 (gdb) r
 Starting program: C:\Users\Hp\Desktop\c-activity-sets\set02\problem04.exe 
-[New Thread 14972.0x2500]
+[New Thread 13096.0x12d0]
 warning: Can not parse XML library list; XML support was disabled at compile time
-Enter the size of array: 5
-Enter value 1: 1
-Enter value 2: 2
-Enter value 3: 7
-Enter value 4: 8
-Enter value 5: 12
-Sum of composite numbers is : 20
-[Thread 14972.0x2500 exited with code 0]
-[Inferior 1 (process 14972) exited normally]
+Enter the size of array: 3
+Enter value 1: 5
+Enter value 2: 7
+Enter value 3: 8
+Sum of composite numbers is : 8
+[Thread 13096.0x12d0 exited with code 0]
+[Inferior 1 (process 13096) exited normally]
 (gdb) q

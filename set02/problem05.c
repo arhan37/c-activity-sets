@@ -12,6 +12,10 @@ int main() {
     return 0;
 }
 
+
+
+
+
 int input() {
     int num;
     printf("Please enter an integer: ");
@@ -31,4 +35,4 @@ int find_gcd(int a, int b) {
 
 void output(int a, int b, int gcd) {
     printf("The GCD of %d and %d is %d\n", a, b, gcd);
-}
+} 
